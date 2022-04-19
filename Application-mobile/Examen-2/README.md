@@ -6,6 +6,8 @@
 //content view
  Rectangle()
     .fill(Color.blue)
+    .modifier(RectangleCustomStyle())
+    //OU
     .customRectangle()
 ```
 
