@@ -7,17 +7,10 @@
  Rectangle()
     .fill(Color.blue)
     .modifier(RectangleCustomStyle())
-    //OU
-    .customRectangle()
 ```
 
 ```swift
 // Bas de page
-extension View {
-  func customRectangle() -> some View {
-    modifier(RectangleCustomStyle())
-  }
-}
 
 struct RectangleCustomStyle: ViewModifier {
     func body(content: Content) -> some View {
